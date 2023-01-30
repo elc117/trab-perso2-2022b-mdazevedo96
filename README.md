@@ -1,2 +1,4 @@
-# trab-perso2-2022b-mdazevedo96
-trab-perso2-2022b-mdazevedo96 created by GitHub Classroom
+# Trabalho individual 
+
+#Introdução
+Neste trabalho será apresentado uso de Pattern Matching em Haskell
