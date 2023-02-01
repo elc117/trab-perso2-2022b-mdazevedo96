@@ -20,8 +20,9 @@ Existem vários exemplos de uso de pattern matching em Haskell, aqui estão algu
  
  2. Uso em regras matemáticas
   Sabemos que a matemática possui regras elementares de uso dos elementos numéricos, podemos citar as duas mais conhecidas, **soma e multiplicação**
-  2.1 Soma
-  Na soma
+  
+  ### Soma
+  
 
 Fonte: Trecho de código "patternmatching.hs"
 ## Conclusão
