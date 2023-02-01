@@ -15,9 +15,20 @@ Existem vários exemplos de uso de pattern matching em Haskell, aqui estão algu
 
 1. Cálculo de um número fatorial
  **Trecho código fatorial**
+ 
+ **Cálculo matemático**
+ 
+ 2. Uso em regras matemáticas
+  Sabemos que a matemática possui regras elementares de uso dos elementos numéricos, podemos citar as duas mais conhecidas, **soma e multiplicação**
+  2.1 Soma
+  Na soma
 
 Fonte: Trecho de código "patternmatching.hs"
 ## Conclusão
+Segundo a litetura, não há uma resposta exata quanto a economia computacional promovida com o emprego de Pattern Matching em códigos em Haskell pois, depende de outros fatores como, complexidade do algoritmo, tamanho dos dados de entrada, finalidade etc.
+É necessário avaliar caso a caso para determinar se o seu caso é apropriado e ofecere benefícios para resolução do problema.
+Por reduzir a complexidade legibilidade do código para os desenvolvedores, auxilia na melhor 
+
 
 ## Créditos
 
