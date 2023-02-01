@@ -28,7 +28,7 @@ Fonte: Trecho de código "patternmatching.hs"
 ## Conclusão
 Segundo a litetura, não há uma resposta exata quanto a economia computacional promovida com o emprego de Pattern Matching em códigos em Haskell pois, depende de outros fatores como, complexidade do algoritmo, tamanho dos dados de entrada, finalidade etc.
 É necessário avaliar caso a caso para determinar se o seu caso é apropriado e ofecere benefícios para resolução do problema.
-Por reduzir a complexidade legibilidade do código para os desenvolvedores, auxilia na melhor 
+Por reduzir a complexidade da legibilidade para os desenvolvedores, auxilia na melhor compreensão nos códigos desenvolvidos
 
 
 ## Créditos
