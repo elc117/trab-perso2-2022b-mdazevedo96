@@ -14,7 +14,11 @@ Deve-se utiliza-se dentro de funções e adequa-se a qualquer tipo de dado (num�
 Existem vários exemplos de uso de pattern matching em Haskell, aqui estão alguns:
 
 1. Cálculo de um número fatorial
- **Trecho código fatorial**
+
+![Fatorial Pattern Matching](https://user-images.githubusercontent.com/42869269/216217162-213e7d05-1b0e-4413-b05f-a0e3dccd588c.png)
+
+
+Fonte: Trecho do código patternmacthing.hs
  
  **Cálculo matemático**
  
