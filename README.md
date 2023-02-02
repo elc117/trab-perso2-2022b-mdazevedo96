@@ -32,16 +32,13 @@ Fonte: Trecho do código patternmacthing.hs
 ## Exercícios aplicados em práticas de Haskell
   ![Captura de tela_20230202_004948](https://user-images.githubusercontent.com/42869269/216227130-b0727781-eae7-4b2b-a6c5-2e06a22b68f4.png)
 
-  
-  ![Captura de tela_20230202_004746](https://user-images.githubusercontent.com/42869269/216226907-a1d3a85a-b255-4b31-a28e-1c909639131d.png)
-  
+    
   A solução empregada para o problema foi a seguinte:
   
   
   ![image](https://user-images.githubusercontent.com/42869269/216227584-137082fa-cfb3-4c10-9af1-00061fa7eb5f.png)
   
-  Usando Pattern Matching, a função fica a seguinte:
-  
+
    A temperatura que nos importa são apenas aquelas **maiores que 37.8 graus** então, ocorre um desperdício de recursos computacionais e por conseguinte, o aumento do  tempo de execução do código. Dessa forma, o pattern matching reduz esse impacto à aplicação.
    
    
