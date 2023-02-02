@@ -54,6 +54,11 @@ Fonte: Trecho do código patternmacthing.hs
  ### Comparando
  
  ![Captura de tela_20230202_010927](https://user-images.githubusercontent.com/42869269/216229591-b06a576e-68b7-4c1c-a19c-13d40828b00d.png)
+ 
+ ![Captura de tela_20230202_011219](https://user-images.githubusercontent.com/42869269/216229924-998269c0-3a50-42b5-bb5a-00081ebcd66a.png)
+
+ 
+ 
 
 
 ## Conclusão
