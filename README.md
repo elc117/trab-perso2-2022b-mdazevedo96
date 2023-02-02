@@ -42,7 +42,9 @@ Fonte: Trecho do código patternmacthing.hs
   
   Usando Pattern Matching, a função fica a seguinte:
   
-  
+   A temperatura que nos importa são apenas aquelas **maiores que 37.8 graus** então, ocorre um desperdício de recursos computacionais e por conseguinte, o aumento do  tempo de execução do código. Dessa forma, o pattern matching reduz esse impacto à aplicação.
+   
+   
   ![image](https://user-images.githubusercontent.com/42869269/216228163-30e1cc50-6e25-45bf-93f6-b0dfe478e0c1.png)
   
   **OBS: Podemos notar um elemento diferente no código...**
@@ -54,11 +56,8 @@ Fonte: Trecho do código patternmacthing.hs
   
   ![image](https://user-images.githubusercontent.com/42869269/216231003-e2a9c814-1456-4246-9fab-c37604e09c8c.png)
 
-  
-  Fonte: Trecho de código "patternmatching.hs"
 
-
-  A temperatura que nos importa são apenas aquelas **maiores que 37.8 graus** então, ocorre um desperdício de recursos computacionais e por conseguinte, o aumento do tempo de execução do código. Dessa forma, o pattern matching reduz esse impacto à aplicação.
+ 
 
  ### Comparando
  
