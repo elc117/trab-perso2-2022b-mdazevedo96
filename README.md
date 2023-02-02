@@ -17,7 +17,10 @@ Existem vários exemplos de uso de pattern matching em Haskell, aqui estão algu
 
 A função **factorial** usa pattern matching para selecionar o caso especial quando o **argumento é igual a zero**, no qual resulta em 1. Para os demais valores de **n**, a função é chamada recursivamente com **n-1**.
 
-![Fatorial Pattern Matching](https://user-images.githubusercontent.com/42869269/216217162-213e7d05-1b0e-4413-b05f-a0e3dccd588c.png)
+![Captura de tela_20230202_000644](https://user-images.githubusercontent.com/42869269/216221786-89d63b37-ad75-47ea-9967-6e192167e40b.png)
+
+**OBS: (Eq p, Num p) => p -> p significa que p deve ser um tipo que seja tanto comparável quanto numérico. Isso é necessário porque a função usa o operador == para comparar 0 e o operador * para calcular o produto.**
+
 ![Captura de tela_20230201_234912](https://user-images.githubusercontent.com/42869269/216219182-93e21ef2-b9b8-488e-ae7d-ded2c6147ad3.png)
 
 
@@ -26,15 +29,30 @@ Fonte: Trecho do código patternmacthing.hs
  ![Calculadora fatorial](https://user-images.githubusercontent.com/42869269/216217474-db67c7a5-524b-4321-8540-72c19316e968.png)
  
  
- **Cálculo matemático**
- 
- 2. Uso em regras matemáticas
-  Sabemos que a matemática possui regras elementares de uso dos elementos numéricos, podemos citar as duas mais conhecidas, **soma e multiplicação**
+## Exercícios aplicados em práticas de Haskell
+  ![Captura de tela_20230202_004948](https://user-images.githubusercontent.com/42869269/216227130-b0727781-eae7-4b2b-a6c5-2e06a22b68f4.png)
+
   
-  ### Soma
+  ![Captura de tela_20230202_004746](https://user-images.githubusercontent.com/42869269/216226907-a1d3a85a-b255-4b31-a28e-1c909639131d.png)
   
+  A solução empregada para o problema foi a seguinte:
+  
+  
+  ![image](https://user-images.githubusercontent.com/42869269/216227584-137082fa-cfb3-4c10-9af1-00061fa7eb5f.png)
+  
+  Usando Pattern Matching, a função fica a seguinte:
+  
+  
+  ![image](https://user-images.githubusercontent.com/42869269/216228163-30e1cc50-6e25-45bf-93f6-b0dfe478e0c1.png)
+
+  A temperatura que nos importa são apenas aquelas **maiores que 37.8 graus** então, ocorre um desperdício de recursos computacionais e por conseguinte, o aumento do tempo de execução do código. Dessa forma, o pattern matching reduz esse impacto à aplicação.
+
+
 
 Fonte: Trecho de código "patternmatching.hs"
+
+
+
 ## Conclusão
 Segundo a litetura, não há uma resposta exata quanto a economia computacional promovida com o emprego de Pattern Matching em códigos em Haskell pois, depende de outros fatores como, complexidade do algoritmo, tamanho dos dados de entrada, finalidade etc.
 É necessário avaliar caso a caso para determinar se o seu caso é apropriado e ofecere benefícios para resolução do problema.
