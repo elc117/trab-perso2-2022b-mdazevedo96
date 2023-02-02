@@ -1,4 +1,4 @@
-# Trabalho individual 
+# Pattern Matching em Haskell
 
 ## Introdução
 Neste trabalho será apresentado uso de Pattern Matching em Haskell
