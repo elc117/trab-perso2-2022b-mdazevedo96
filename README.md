@@ -20,6 +20,8 @@ Existem vários exemplos de uso de pattern matching em Haskell, aqui estão algu
 
 Fonte: Trecho do código patternmacthing.hs
  
+ ![Calculadora fatorial](https://user-images.githubusercontent.com/42869269/216217474-db67c7a5-524b-4321-8540-72c19316e968.png)
+ 
  **Cálculo matemático**
  
  2. Uso em regras matemáticas
