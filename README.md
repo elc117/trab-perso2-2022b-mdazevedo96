@@ -74,6 +74,9 @@ Segundo a litetura, não há uma resposta exata quanto a economia computacional 
 Por reduzir a complexidade da legibilidade para os desenvolvedores, auxilia na melhor compreensão nos códigos desenvolvidos
 
 
-## Créditos
+## Referências
 
 > http://learnyouahaskell.com/syntax-in-functions#pattern-matching
+> https://www.tutorialspoint.com/haskell/index.htm
+> https://wiki.haskell.org/Tutorials
+> https://www.haskell.org
