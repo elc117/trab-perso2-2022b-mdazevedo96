@@ -15,12 +15,16 @@ Existem vários exemplos de uso de pattern matching em Haskell, aqui estão algu
 
 1. Cálculo de um número fatorial
 
+A função **factorial** usa pattern matching para selecionar o caso especial quando o **argumento é igual a zero**, no qual resulta em 1. Para os demais valores de **n**, a função é chamada recursivamente com **n-1**.
+
 ![Fatorial Pattern Matching](https://user-images.githubusercontent.com/42869269/216217162-213e7d05-1b0e-4413-b05f-a0e3dccd588c.png)
+![Captura de tela_20230201_234912](https://user-images.githubusercontent.com/42869269/216219182-93e21ef2-b9b8-488e-ae7d-ded2c6147ad3.png)
 
 
 Fonte: Trecho do código patternmacthing.hs
  
  ![Calculadora fatorial](https://user-images.githubusercontent.com/42869269/216217474-db67c7a5-524b-4321-8540-72c19316e968.png)
+ 
  
  **Cálculo matemático**
  
