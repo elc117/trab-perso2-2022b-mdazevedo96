@@ -45,6 +45,15 @@ Fonte: Trecho do código patternmacthing.hs
   
   ![image](https://user-images.githubusercontent.com/42869269/216228163-30e1cc50-6e25-45bf-93f6-b0dfe478e0c1.png)
   
+  **OBS: Podemos notar um elemento diferente no código...**
+  
+  O Pattern Matching utiliza-se de **guardas** em Haskell
+  
+  **Guardas em Haskell são uma forma de condicionar a execução de uma função baseada em uma condição. Elas são escritas após o nome da função e antes dos casos de pattern matching.**
+  
+  
+  ![image](https://user-images.githubusercontent.com/42869269/216231003-e2a9c814-1456-4246-9fab-c37604e09c8c.png)
+
   
   Fonte: Trecho de código "patternmatching.hs"
 
